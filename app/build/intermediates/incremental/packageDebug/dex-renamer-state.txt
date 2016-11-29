@@ -1,0 +1,7 @@
+#Tue Nov 29 09:39:53 CST 2016
+base.0=C\:\\Users\\Joker\\Desktop\\TeachMask\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3faf2f942b4218e1c12df146d6dd26848116169b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Joker\\Desktop\\TeachMask\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f06074e20989619a0bede70aa9a2c6f92d85e4af\\classes.dex
+base.1=C\:\\Users\\Joker\\Desktop\\TeachMask\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f06074e20989619a0bede70aa9a2c6f92d85e4af
+file.0=C\:\\Users\\Joker\\Desktop\\TeachMask\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3faf2f942b4218e1c12df146d6dd26848116169b\\classes.dex

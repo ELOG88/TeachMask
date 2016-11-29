@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\ASSDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Joker\Desktop\TeachMask\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_068e0b9c23fa1d44ca433ede2b830a40fef91951\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\Desktop\TeachMask\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="68af39581e2362b5b8bd5e978cea4e7a6e32ca61">
+        <dex dex="C:\Users\Joker\Desktop\TeachMask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3faf2f942b4218e1c12df146d6dd26848116169b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joker\Desktop\TeachMask\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e3753d580a1f3f52abef9d4adfb42e776326f958">
+        <dex dex="C:\Users\Joker\Desktop\TeachMask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f06074e20989619a0bede70aa9a2c6f92d85e4af\classes.dex" />
+    </item>
+
+</items>
