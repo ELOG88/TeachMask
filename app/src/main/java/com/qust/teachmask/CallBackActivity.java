@@ -20,7 +20,7 @@ public class CallBackActivity extends Activity {
 
     }
     public void btnBack(View v){
-        Toast.makeText(CallBackActivity.this, "跳转到第二个页面了！", Toast.LENGTH_SHORT).show();
+        Toast.makeText(CallBackActivity.this, "跳转到", Toast.LENGTH_SHORT).show();
         Intent intentData = new Intent();
         Bundle bundleData = new Bundle();
         bundleData.putString("name","joker");
