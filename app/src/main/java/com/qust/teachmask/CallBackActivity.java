@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 /**
  * Created by Joker on 2016-11-28.
@@ -16,8 +17,10 @@ public class CallBackActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_callback);
+
     }
     public void btnBack(View v){
+        Toast.makeText(CallBackActivity.this, "跳转到第二个页面了！", Toast.LENGTH_SHORT).show();
         Intent intentData = new Intent();
         Bundle bundleData = new Bundle();
         bundleData.putString("name","joker");

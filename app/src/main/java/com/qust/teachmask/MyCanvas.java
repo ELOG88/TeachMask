@@ -14,6 +14,7 @@ import android.view.View;
  */
 
 public class MyCanvas extends View {
+
     private Canvas myCanvas;
     private Paint myPaint=new Paint();
 

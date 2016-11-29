@@ -88,7 +88,7 @@ public class MainActivity extends Activity implements OnClickListener {
         switch (v.getId()) {
             case R.id.btnOk:
                 TestCallback tc = new TestCallback(callBack);
-                Toast.makeText(MainActivity.this, "早餐吃了十二块！！！", 500).show();
+                Toast.makeText(MainActivity.this, "跳转到第二个页面了！", Toast.LENGTH_SHORT).show();
                 this.startActivityForResult(new Intent(MainActivity.this, CallBackActivity.class), 0);
                 break;
         }
