@@ -7,8 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 38,
-                    "endOffset": 89
+                    "endColumn": 39,
+                    "endOffset": 90
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\color.xml",
@@ -16,8 +16,8 @@
                         "startLine": 3,
                         "startColumn": 4,
                         "startOffset": 98,
-                        "endColumn": 38,
-                        "endOffset": 132
+                        "endColumn": 39,
+                        "endOffset": 133
                     }
                 }
             },
@@ -25,9 +25,9 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 94,
+                    "startOffset": 95,
                     "endColumn": 39,
-                    "endOffset": 129
+                    "endOffset": 130
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\color.xml",
@@ -44,9 +44,9 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 134,
+                    "startOffset": 135,
                     "endColumn": 57,
-                    "endOffset": 187
+                    "endOffset": 188
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\dimens.xml",
@@ -63,9 +63,9 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 192,
+                    "startOffset": 193,
                     "endColumn": 55,
-                    "endOffset": 243
+                    "endOffset": 244
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\dimens.xml",
@@ -82,9 +82,9 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 248,
+                    "startOffset": 249,
                     "endColumn": 39,
-                    "endOffset": 283
+                    "endOffset": 284
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\dimens.xml",
@@ -101,9 +101,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 288,
+                    "startOffset": 289,
                     "endColumn": 42,
-                    "endOffset": 326
+                    "endOffset": 327
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\dimens.xml",
@@ -120,9 +120,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 331,
+                    "startOffset": 332,
                     "endColumn": 46,
-                    "endOffset": 373
+                    "endOffset": 374
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\strings.xml",
@@ -139,10 +139,10 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 378,
+                    "startOffset": 379,
                     "endLine": 15,
                     "endColumn": 12,
-                    "endOffset": 664
+                    "endOffset": 665
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\styles.xml",
@@ -160,10 +160,10 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 669,
+                    "startOffset": 670,
                     "endLine": 18,
                     "endColumn": 12,
-                    "endOffset": 824
+                    "endOffset": 825
                 },
                 "from": {
                     "file": "C:\\Users\\Joker\\Desktop\\TeachMask\\app\\src\\main\\res\\values\\styles.xml",

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml
@@ -34,7 +34,7 @@ ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:11:
 	android:name
 		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:11:22-75
 application
-ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:13:5-30:19
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:13:5-35:19
 	android:label
 		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:16:9-41
 	android:allowBackup
@@ -44,22 +44,36 @@ ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:13:
 	android:theme
 		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:17:9-40
 activity#com.qust.teachmask.MainActivity
-ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:18:9-21:20
 	android:label
 		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:20:13-45
 	android:name
 		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:19:13-59
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:21:13-25:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:22:17-69
-	android:name
-		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:22:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:24:17-77
-	android:name
-		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.qust.teachmask.CallBackActivity
-ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:27:9-29:20
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:22:9-23:20
 	android:name
-		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:27:19-51
+		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:22:19-51
+activity#com.qust.myservices.ServicesActivity
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:24:19-70
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:28:27-74
+service#com.qust.myservices.MyServices
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:32:9-74
+	android:name
+		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:32:18-63
+service#com.qust.myservices.BinderService
+ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:33:9-34:46
+	android:enabled
+		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:34:13-35
+	android:name
+		ADDED from C:\Users\Joker\Desktop\TeachMask\app\src\main\AndroidManifest.xml:33:18-66

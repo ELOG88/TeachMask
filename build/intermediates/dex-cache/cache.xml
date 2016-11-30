@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="4add0028bddc2e0558f7cc496f7819a8860ac9a4">
+        sha1="24051e2dc3cff3cb3ac3b1d50e332eb7fecc1ff6">
         <dex dex="C:\Users\Joker\Desktop\TeachMask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3faf2f942b4218e1c12df146d6dd26848116169b\classes.dex" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="7735ab8752b0010a964c2abc009ed4f3032a8cbf">
+        sha1="a11969ced23ba41c6901d368b88a02f3b7f8a1d1">
         <dex dex="C:\Users\Joker\Desktop\TeachMask\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f06074e20989619a0bede70aa9a2c6f92d85e4af\classes.dex" />
     </item>
 

@@ -1,6 +1,7 @@
 package com.qust.teachmask;
 
 import android.app.Activity;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.PixelFormat;
@@ -25,17 +26,24 @@ public class MainActivity extends Activity implements OnClickListener {
     private TextView tvContext;
     private Context mContext;
     private CheckBox checkBox;
+    private ContentValues contentValues;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if(savedInstanceState!=null){
+            String StrUserId = savedInstanceState.getString("StrUserId");
+            Toast.makeText(mContext,StrUserId,Toast.LENGTH_SHORT).show();
+        }
         mContext = this;
         btnOk = (Button) findViewById(R.id.btnOk);
         btnOk.setOnClickListener(this);
         tvContext = (TextView) findViewById(R.id.tvContext);
         windowManager = getWindowManager();
         tvContext.setText(getAppInfo());
+        contentValues = new ContentValues();
+        contentValues.put("name","joker");
         // 动态初始化图层
         img = new ImageView(this);
         img.setLayoutParams(new LayoutParams(
@@ -57,7 +65,7 @@ public class MainActivity extends Activity implements OnClickListener {
         params.height = ScreenUtils.getScreenHeight(this);
 
         // 添加到当前的窗口上
-        //windowManager.addView(img, params);
+        windowManager.addView(img, params);
 
         // 点击图层之后，将图层移除
         img.setOnClickListener(new OnClickListener() {
@@ -68,6 +76,11 @@ public class MainActivity extends Activity implements OnClickListener {
             }
         });
 
+    }
+    @Override
+    protected void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putString("StrUserId","1");
     }
 
     private String getAppInfo() {

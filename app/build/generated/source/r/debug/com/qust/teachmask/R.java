@@ -11,7 +11,7 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int blac=0x7f060000;
+        public static final int black=0x7f060000;
         public static final int white=0x7f060001;
     }
     public static final class dimen {
@@ -27,13 +27,17 @@ public final class R {
         public static final int ic_ordermaok=0x7f020003;
     }
     public static final class id {
-        public static final int btnOk=0x7f080001;
+        public static final int btnOk=0x7f080002;
         public static final int myCanvas=0x7f080000;
-        public static final int tvContext=0x7f080002;
+        public static final int tvContext=0x7f080003;
+        public static final int tvGitHubText=0x7f080001;
+        public static final int tvResult=0x7f080004;
     }
     public static final class layout {
         public static final int activity_callback=0x7f030000;
-        public static final int activity_main=0x7f030001;
+        public static final int activity_githubtest=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int activity_services=0x7f030003;
     }
     public static final class string {
         public static final int app_name=0x7f070000;
