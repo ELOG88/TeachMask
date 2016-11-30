@@ -30,8 +30,7 @@
         </activity>
         <!--注册services-->
         <service android:name="com.qust.myservices.MyServices"></service>
-        <service android:name="com.qust.myservices.BinderService"
-            android:enabled="true"></service>
+        <service android:name="com.qust.myservices.BinderService" android:enabled="true"></service>
     </application>
 
 </manifest>

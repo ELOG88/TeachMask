@@ -84,17 +84,16 @@ public class BinderService extends Service implements ICounterService{
 
             @Override
             protected void onPostExecute(Integer val) {
-                int counter = val;
-
-                Intent intent = new Intent(BROADCAST_COUNTER_ACTION);
-                intent.putExtra(COUNTER_VALUE, counter);
-
-                sendBroadcast(intent);
+//            int counter = val;
+//            Intent intent = new Intent(BROADCAST_COUNTER_ACTION);
+//            intent.putExtra(COUNTER_VALUE, counter);
+//            sendBroadcast(intent);
             }
 
         };
         task.execute(initVal);
     }
+
 
 
 
