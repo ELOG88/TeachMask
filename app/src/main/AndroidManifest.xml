@@ -24,13 +24,6 @@
         <activity android:name="com.qust.myservices.ServicesActivity">
 
         </activity>
-        <activity android:name="com.qust.calltip.CallTip">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <!--注册services-->
         <service android:name="com.qust.myservices.MyServices"></service>
         <service android:name="com.qust.myservices.BinderService" android:enabled="true"></service>
