@@ -9,7 +9,7 @@ import android.util.Log;
 
 /**
  * Created by Joker on 2016-11-29.
- */
+// */
 
 public class BinderService extends Service implements ICounterService{
     private  String TAG="BinderService";

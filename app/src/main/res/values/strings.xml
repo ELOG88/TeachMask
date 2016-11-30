@@ -2,5 +2,8 @@
 <resources>
 
     <string name="app_name">TeachMask</string>
+    <string name="name">钱河灵</string>
+    <string name="tel">18050164706</string>
+    <string name="tvDepartment">泉州移动工作组、内部信息化支撑小组</string>
 
 </resources>

@@ -22,6 +22,9 @@
         <activity android:name=".CallBackActivity">
         </activity>
         <activity android:name="com.qust.myservices.ServicesActivity">
+
+        </activity>
+        <activity android:name="com.qust.calltip.CallTip">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

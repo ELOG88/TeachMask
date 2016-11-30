@@ -12,6 +12,7 @@ import android.os.IBinder;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.qust.teachmask.R;
 
@@ -54,7 +55,7 @@ public class ServicesActivity extends Activity {
     }
 
     /**
-     * startServices
+     * startService
      *
      * @param v
      */
@@ -64,7 +65,7 @@ public class ServicesActivity extends Activity {
     }
 
     /**
-     * stopServices
+     * stopService
      *
      * @param v
      */
@@ -73,7 +74,7 @@ public class ServicesActivity extends Activity {
     }
 
     /**
-     * bindServices
+     * bindService
      *
      * @param v
      */
@@ -81,10 +82,18 @@ public class ServicesActivity extends Activity {
         binderService.startCounter(1);
     }
 
+    /**
+     * unBindService
+     *
+     * @param v
+     */
     public void btnUnBindServices(View v) {
         binderService.stopCounter();
     }
 
+    /**
+     * 计数广播
+     */
     private BroadcastReceiver counterActionReceiver = new BroadcastReceiver() {
         public void onReceive(Context context, Intent intent) {
             int counter = intent.getIntExtra(BinderService.COUNTER_VALUE, 0);
@@ -93,6 +102,9 @@ public class ServicesActivity extends Activity {
             Log.i(LOG_TAG, "-----onReceice----");
         }
     };
+    /***
+     * 实现ServiceConnection
+     */
     private ServiceConnection serviceConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
@@ -102,7 +114,22 @@ public class ServicesActivity extends Activity {
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
-            binderService= null;
+            binderService = null;
         }
     };
+
+    /**
+     * .Ctrl+Alt+T：选中一块代码，按此组合键，可快速添加if 、for、try/catch等语句
+     */
+    public void testCtrlAltT() {
+        try {
+            do {
+                Log.i(LOG_TAG, "testCtrlAltT");
+                Toast.makeText(ServicesActivity.this, "name", Toast.LENGTH_SHORT).show();
+            } while (true);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 }

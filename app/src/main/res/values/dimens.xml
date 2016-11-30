@@ -5,4 +5,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 <dimen name="normal_text">16sp</dimen>
     <dimen name="big_text">20sp</dimen>
+    <dimen name="tipWidth">250dp</dimen>
+    <dimen name="tipHeight">200dp</dimen>
 </resources>

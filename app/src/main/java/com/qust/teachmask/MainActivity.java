@@ -86,10 +86,8 @@ public class MainActivity extends Activity implements OnClickListener {
     private String getAppInfo() {
         try {
             String pkName = this.getPackageName();
-            String versionName = this.getPackageManager().getPackageInfo(
-                    pkName, 0).versionName;
-            int versionCode = this.getPackageManager()
-                    .getPackageInfo(pkName, 0).versionCode;
+            String versionName = this.getPackageManager().getPackageInfo(pkName, 0).versionName;
+            int versionCode = this.getPackageManager().getPackageInfo(pkName, 0).versionCode;
             return pkName + "   " + versionName + "  " + versionCode;
         } catch (Exception e) {
         }
@@ -124,8 +122,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
         @Override
         public void getNameCallBack(String name) {
-            Toast.makeText(mContext, "callBackName:" + name, Toast.LENGTH_SHORT).show();
-        }
+            Toast.makeText(mContext, "callBackName:" + name, Toast.LENGTH_SHORT).show(); }
     };
 
 }
